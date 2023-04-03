@@ -16,6 +16,7 @@ function Quiz() {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [congrats, setCongrats] = useState(false);
     const [result, setResult] = useState(0);
+    let a = "Hello";
     console.log(listQuestion);
 
     const handleSubmit = () => {
