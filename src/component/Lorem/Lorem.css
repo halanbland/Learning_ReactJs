@@ -1,0 +1,54 @@
+.lorem {
+    display: flex;
+}
+
+.lorem-container {
+    width: 640px;
+    margin: 10rem auto;
+    text-align: center;
+}
+
+.lorem__head {
+    font-weight: 400;
+}
+
+.lorem__form {
+
+}
+
+.lorem__form-paragrahp {
+    font-size: 2rem;
+}
+
+.lorem__form-input {
+    display: inline-block;
+    padding: 5px 4px;
+    margin: 0 8px;
+    width: 5rem;
+    border-radius: 0.25rem;
+    border-color: transparent;
+    font-size: 1.6rem;
+    background:#cbd5e1;
+}
+
+.btn--lorem {
+    font-size: 1.4rem;
+    background-color:#10b981; 
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 10px;
+}
+
+.lorem__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.lorem__list-item {
+    text-align: left;
+    margin: 10px 0;
+}

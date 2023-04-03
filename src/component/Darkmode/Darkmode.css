@@ -1,0 +1,79 @@
+.darkmode {
+    padding: 80px 0;
+    transition: all linear 0.2s;
+}
+
+.darkmode.darkmode--active {
+    background-color: #282c35;
+}
+
+.darkmode__width {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.darkmode__head {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.darkmode__title {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0;
+    margin: 0;
+    transition: all linear 0.2s;
+}
+
+.darkmode__title.darkmode__title--active {
+    color: #fff;
+}
+
+.darkmode__btn {
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 0 12px;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #d23669;
+    height: 27px;
+    transition: all linear 0.2s;
+}
+
+.darkmode__btn.darkmode__btn--active {
+    background-color: #ffa7c4;
+    color: #282c35;
+}
+
+.darkmode__content {
+    margin: 40px 0;
+    transition: all linear 0.2s;
+}
+
+.darkmode__content.darkmode__content--active {
+    color: #fff;
+}
+
+.darkmode__content-heading {
+    color: #d23669;
+    transition: all linear 0.2s;
+}
+
+.darkmode__content-heading.darkmode__content-heading--active {
+    color: #ffa7c4;
+}
+
+.darkmode__content-date {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+.darkmode__content-work {
+    /* color: #666; */
+    font-weight: 400;
+    font-size: 1.5rem;
+}

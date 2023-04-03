@@ -1,0 +1,168 @@
+.sidebar {
+    display: flex;
+    height: 100vh;
+    background-color: #f1f5f9;
+}
+
+.sidebar__modal {
+    margin: auto;
+    border: none;
+    background-color: #49a6e9;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sidebar__modal:hover {
+    background-color: #296088;
+}
+
+.sidebar__navigate {
+    position: fixed;
+    top: 30px;
+    left: 40px;
+    font-size: 3rem;
+    color: #49a6e9;
+    cursor: pointer;
+}
+
+.sidebar__navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 400px;
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    animation: slideleft linear 0.2s;
+}
+
+@keyframes slideleft {
+    from {
+        left: -400px;
+        opacity: 0;
+    }
+    to {
+        nav-left: 0;
+        opacity: 1;
+    }
+}
+
+.sidebar__head {
+    height: 72px;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar__head-logo {
+    height: 40px;
+
+}
+
+.sidebar__head-icon {
+    cursor: pointer;
+    font-size: 3rem;
+    color: rgb(110, 13, 13);
+}
+
+.sidebar__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar__list-item {
+    padding: 16px 24px;
+    height: 56px;
+    font-size: 1.8rem;
+    color: #334155;
+    cursor: pointer;
+}
+
+.sidebar__list-item:hover {
+    background-color: #f1f5f9;
+}
+
+.sidebar__list-item-icon {
+    margin-right: 20px;
+}
+
+.sidebar__social {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 3ox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar__social-item {
+    font-size: 2.3rem;
+    color: #49a6e9;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.sidebar__list-item-link {
+    text-decoration: none;
+    display: block;
+    color: #334155;
+}
+
+.sidebar__social-item-link {
+    text-decoration: none;
+    color: #49a6e9;
+}
+
+.sidebar__social-item-link:hover {
+    color: #296088;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    animation: modalfadein linear 0.5s;
+}
+
+@keyframes modalfadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.modal__content {
+    margin: auto;
+    width: 50vw;
+    height: 30vh;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 4px;
+    display: flex;
+}
+
+.modal__content-heading {
+    margin: auto;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.modal__icon {
+    font-size: 3.5rem;
+    color: rgb(110, 13, 13);
+    padding: 12px 20px;
+    cursor: pointer;
+}
+

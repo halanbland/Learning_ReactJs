@@ -1,0 +1,134 @@
+
+.strapi {
+    display: flex;
+    justify-content: center;
+    background-color: #6366f1;
+    color: #fff;
+    height: 100vh;
+}
+
+.stapi__width {
+    width: 1120px;
+    
+}
+
+.strapi__header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.strapi__logo {
+    font-size: 3.1rem;
+    margin: 0;
+}
+
+.strapi__navbar {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-item {
+    font-size: 2rem;
+    padding: 0 16px;
+    cursor: pointer;
+    line-height: 80px;
+}
+
+.strapi__body {
+    height: calc(100% - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.strapi__body-content {
+
+}
+
+.strapi__body-content-heading {
+    font-size: 64px;
+    text-align: center;
+}
+
+.strapi__body-content-description {
+    font-size: 16px;
+    max-width: 56.5rem;
+    text-align: center;
+}
+
+.stapi-product__dropdow {
+    background-color: white;
+    width: 1120px;
+    color: black;
+    padding: 30px 25px;
+    border-radius: 6px;
+}
+
+.product-dropdow__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.stapi-product__dropdow-head {
+    color: #818cf8;
+    margin: 0 0 10px;
+    font-weight: 400;
+}
+
+.product-dropdow__list {
+    color: #555;
+}
+
+.product-dropdow__list-item {
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.product-dropdow__list-item-icon {
+    margin-right: 16px;
+}
+
+.stapi-solution__dropdow {
+    background-color: white;
+    width: 1120px;
+    color: black;
+    padding: 30px 25px;
+    border-radius: 6px;
+}
+
+.solution-dropdow__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.stapi-solution__dropdow-head {
+    color: #818cf8;
+    margin: 0 0 10px;
+    font-weight: 400;
+}
+
+.solution-dropdow__list {
+    color: #555;
+    display: flex;
+    width: 100%
+}
+
+.solution-wrap__item {
+    flex: 1;
+}
+
+.solution-dropdow__list-item {
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.solution-dropdow__list-item-icon {
+    margin-right: 16px;
+}

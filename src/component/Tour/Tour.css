@@ -1,0 +1,99 @@
+
+
+
+.wrapper {
+    max-width: 1200px;
+    margin: 80px auto;
+}
+
+.tour__price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 6px 8px;
+}
+
+.header {
+    text-align: center;
+    margin: 0;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.underline {
+    width: 90px;
+    height: 4px;
+    background-color: var(--primary-color) ;
+    margin: 15px auto 50px;
+}
+
+.tour__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tour__list-item {
+    position: relative;
+    width: 30%;
+    list-style: none;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+    border-radius: 3px;
+    overflow: hidden;
+    transition: all linear 0.1s;
+    margin: 30px calc(10%/6) 0;
+    display: inline-block;
+}
+
+.tour__list-item:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);;
+}
+
+.tour__list-item-img {
+    width: 100%;
+    height: 348px;
+}
+
+.tour__list-item-about {
+    width: 80%;
+    margin: auto;
+}
+
+.tour__list-item-title {
+    text-align: center;
+}
+
+.tour__list-item-description {
+    display: block;
+    line-height: 2.4rem;
+    color: #777;
+   
+}
+
+.tour__list-item-description.tour__list-item-description--hidden { 
+    height: 120px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow:hidden;
+}
+
+.tour__list-item-read {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: var(--primary-color);
+
+}
+
+.tour__list-item-less {
+    display: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: var(--primary-color);
+}
+
+

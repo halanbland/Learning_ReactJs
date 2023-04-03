@@ -1,0 +1,127 @@
+.movies {
+    background-color: #f1f5f8;
+    padding: 90px 0;
+}
+
+.movies__width {
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+.movies__search {
+    font-size: 40px;
+}
+
+.movies__search-input {
+    width: 600px;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+}
+
+.movies__search-invalid {
+    display: block;
+    color: rgb(180, 59, 59);
+    margin-top: 10px;
+}
+
+.movies__list {
+    margin: 80px -15px 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movies__list-item {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.movies__list-item-wrap {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+    height: 400px;
+    cursor: pointer;
+}
+
+.movies__list-item-wrap:hover .movies__list-item-info {
+    bottom: 0;
+}
+
+.movies__list-item-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.movies__list-item-info {
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    height: 60px;
+    padding: 14px;
+    transition: all linear 0.2s;
+}
+
+.movies__list-item-name {
+    margin: 0;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.movies__list-item-since {
+    margin-top: 2px;
+    font-size: 1.5rem;
+}
+
+/* CSS movies info */
+
+.movies1 {
+    background-color: #f1f5f8;
+    padding: 60px 0;
+}
+
+.movies1__wrap {
+    display: flex;
+}
+
+.movies1__img {
+    width: 33%;
+}
+
+.movies1__info {
+    width: 67%;
+    margin-left: 30px;
+}
+
+.movies1__info-name {
+    font-size: 4rem;
+    letter-spacing: 2px;
+    margin: 0 0 20px;
+}
+
+.movies1__info-description {
+    color: #666;
+    line-height: 3rem;
+}
+
+.movies1__info-since {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.movies1__btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #49a6e9;
+    color: white;
+    border-radius: 4px;
+    padding: 6px 10px;
+    letter-spacing: 2px;
+}

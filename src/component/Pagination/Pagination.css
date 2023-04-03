@@ -1,0 +1,118 @@
+.pagination {
+    background-color: #f1f5f8;
+    padding: 60px 0;
+    min-height: 100vh;
+}
+
+.pagination__width {
+    max-width: 1152px;
+    margin: auto;
+}
+
+.pagination__wrapper {
+}
+
+.pagination__header {
+    margin: 0;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 4.8rem;
+}
+
+.pagination__underline {
+    margin: 3px auto 100px;
+    background-color: #49a6e9;
+    width: 120px;
+    height: 4px;
+}
+
+.pagination-uses__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination-uses__list-item {
+    padding: 0 16px;
+    width: calc(100% / 4);
+}
+
+.pagination-uses__list-item-wrapper {
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    height: 264px;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.pagination-uses__list-item img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.pagination-uses__list-item-name {
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.btn__pagination {
+    letter-spacing: 2px;
+    background-color: #49a6e9;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.paginate {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginate__prev {
+    font-size: 1.8rem;
+    color: #000;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+.paginate__btn {
+    cursor: pointer;
+    color: #000;
+    background-color: #8bcbf9;
+    border-radius: 8px;
+    border: none;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 3.2rem;
+    margin: 0 8px;
+}
+
+.paginate__btn.paginate__btn--active {
+    background-color: #063251;
+    color: #fff;
+}
+
+.paginate__next {
+    margin-left: 8px;
+    font-size: 1.8rem;
+    color: #000;
+    cursor: pointer;
+    font-weight: 600;
+}

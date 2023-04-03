@@ -1,0 +1,111 @@
+.stripe {
+    background-image: url(https://react-projects-13-stripe-submenus.netlify.app/static/media/hero.8596ab4a.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top - 5px;
+
+}
+
+.stripe__header {
+
+}
+
+.stripe__header-wrap {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.stripe__width {
+    margin: auto;
+    width: 90vw;
+}
+
+.stripe__header-nav-item {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 160px;
+    height: 49px;
+    line-height: 49px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.btn__stripe {
+    font-size: 1.6rem;
+    padding: 6px 12px;
+    background-color: black;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+}
+
+.btn__stripe:hover {
+    background-color: #617d98;
+    cursor: pointer;
+}
+
+.stripe__section {
+    position: relative;
+    margin-top: -40px;
+}
+
+.stripe__section-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stripe__section-info {
+
+}
+
+.section-info__heading {
+    font-size: 7rem;
+    margin: 32px 0;
+}
+
+.section-info__desription {
+    max-width: 700px;
+    font-size: 2rem;
+    line-height: 4rem;
+    color: #777;
+}
+
+.stripe__section-img {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-img {
+    width: 240px;
+}
+
+.stripe__product-nav {
+    min-width: 400px;
+    height: 130px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px 30px;
+}
+
+.stripe__product-nav-list-item-icon {
+    margin-right: 10px;
+}
+
+.stripe__product-nav-title {
+    color: #000;
+}
+
+.stripe__product-nav-list {
+    display: flex;
+}
+
+.stripe__product-nav-list-item {
+    flex: 1;
+    color: #617d98;
+    margin-right: 60px;
+}

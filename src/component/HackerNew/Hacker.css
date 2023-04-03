@@ -1,0 +1,105 @@
+.hacker {
+    background-color: #f1f5f8;
+    padding: 70px 60px;
+    min-height: 100vh;
+}
+
+.hacker__search {
+    font-size: 3.6rem;
+}
+
+.hacker__search-input {
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid #9fa9c0;
+    background-color: transparent;
+    height: 53px;
+    padding: 0 14px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.hacker__pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.hacker__pagination-prev {
+    font-size: 1.4rem;
+    background-color: #49a6e9;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fff;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.hacker__pagination-counting {
+    margin: 0 10px;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #324d67;
+}
+
+.hacker__pagination-next {
+    cursor: pointer;
+    font-size: 1.4rem;
+    background-color: #49a6e9;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.hacker__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 40px -14px 0;
+    list-style: none;
+}
+
+.hacker__list-item {
+    width: 50%;
+    padding: 0 15px;
+    max-width: 50%;
+}
+
+.hacker__list-item-wrap {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.hacker__list-item-title {
+    margin: 0;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+}
+
+.hacker__list-item-description {
+    font-size: 1.5rem;
+    color: #324d67;
+    margin-top: 10px;
+}
+
+.hacker__function {
+}
+
+.hacker__function-readmore {
+    color: #49a6e9;
+    font-size: 1.4rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.hacker__function-remove {
+    margin-left: 14px;
+    color: #bb2525;
+    font-size: 1.4rem;
+    font-weight: 400;
+    cursor: pointer;
+}
